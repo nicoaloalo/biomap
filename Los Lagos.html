@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Región de Los Lagos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            /* Mantén este padding para que el contenido no toque los bordes de la ventana */
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1100px;
+            /* ¡CAMBIO AQUÍ! Aumentado de 900px a 1100px para más espacio horizontal */
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #0056b3;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section-box {
+            background-color: #ffe0b3;
+            border: 1px solid #ffcc80;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+
+        .section-box h2 {
+            color: #e65100;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .subsection-content {
+            background-color: #fff3e0;
+            border-left: 3px solid #ffab40;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .subsection-content h3 {
+            color: #ff8f00;
+            margin-top: 0;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        .animal-photos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .animal-photos img {
+            max-width: 320px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .animal-photos img:hover {
+            transform: scale(1.03);
+        }
+
+        .back-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .back-link a {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .back-link a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Región de Los Lagos</h1>
+
+        <div class="section-box">
+            <h2>Foto del Animal de la Región</h2>
+            <div class="animal-photos">
+                <img src="img animal/zorrochilote.png" alt="Animal de Arica 1">
+                <img src="img animal/zorrochilote.png" alt="Animal de Arica 2">
+                <img src="img animal/zorrochilote.png" alt="Animal de Arica 3">
+            </div>
+        </div>
+
+        <div class="section-box">
+            <h2>Información: El Zorro Chilote</h2>
+            <p>El Zorro Chilote (Lycalopex fulvipes), también conocido como Zorro de Darwin, es un cánido endémico de
+                Chile, una de las especies de zorros más raras del mundo y un símbolo de los fragmentados bosques
+                templados australes.</p>
+
+            <div class="subsection-content">
+                <h3>Hábitos</h3>
+                <p>El Zorro Chilote es un animal de hábitos principalmente crepusculares y nocturnos, aunque puede estar
+                    activo durante el día, especialmente en zonas de poca perturbación humana. Es omnívoro, y su dieta
+                    es variada: incluye pequeños mamíferos (como roedores), aves, reptiles, anfibios, insectos, y una
+                    importante proporción de frutos y semillas de especies nativas del bosque. Es un animal solitario y
+                    territorial, y su comportamiento elusivo lo hace difícil de observar.</p>
+            </div>
+
+            <div class="subsection-content">
+                <h3>Hábitat</h3>
+                <p>Habita en los bosques templados lluviosos y densos de la Cordillera de Nahuelbuta (Región de La
+                    Araucanía y Biobío) y en la Isla Grande de Chiloé (Región de Los Lagos). Requiere de ambientes con
+                    abundante cobertura forestal, sotobosque denso y escasa presencia humana para sobrevivir. Se asocia
+                    a los ecosistemas de bosque valdiviano, donde encuentra refugio, alimento y humedad.</p>
+            </div>
+
+            <div class="subsection-content">
+                <h3>Cualidades</h3>
+                <p>Es un zorro de tamaño pequeño (más pequeño que el zorro culpeo o chilla), con un pelaje corto y denso
+                    de color gris oscuro a casi negro, lo que lo diferencia de otras especies de zorros chilenos. Tiene
+                    patas cortas y robustas, y una cola relativamente corta. Su hocico es puntiagudo y sus orejas son
+                    pequeñas. Es una especie catalogada En Peligro Crítico de Extinción, debido principalmente a la
+                    pérdida y fragmentación de su hábitat, los ataques de perros domésticos y asilvestrados, la
+                    transmisión de enfermedades por estos mismos y los atropellos en carreteras.</p>
+            </div>
+        </div>
+
+        <div class="section-box">
+            <h2>Estadísticas de Los Lagos</h2>
+            <div class="subsection-content">
+                <h3>% de Desertificación</h3>
+                <p>La Región de Los Lagos, con su clima templado lluvioso, no se enfrenta a la desertificación en el
+                    sentido árido de las regiones del norte. Sin embargo, sí experimenta procesos de degradación y
+                    erosión de suelos, especialmente en áreas donde los bosques nativos han sido talados para dar paso a
+                    la agricultura, ganadería intensiva o plantaciones forestales. El cambio climático y eventos
+                    extremos pueden acentuar la pérdida de fertilidad del suelo y su capacidad de retención hídrica. Se
+                    estima que aproximadamente el XX% de su territorio presenta algún grado de degradación ambiental
+                    relevante.</p>
+            </div>
+            <div class="subsection-content">
+                <h3>% de Deforestación</h3>
+                <p>La Región de Los Lagos es hogar de algunos de los bosques templados más valiosos del planeta, pero ha
+                    sufrido una defoliación y fragmentación histórica y continua de sus ecosistemas nativos. Grandes
+                    extensiones de bosque nativo han sido convertidas para actividades agrícolas, ganaderas y, de manera
+                    muy significativa, para la expansión de plantaciones de monocultivo de pinos y eucaliptos. Esta
+                    sustitución del bosque nativo es un grave problema ambiental, con impactos en la biodiversidad, los
+                    ciclos hídricos y la resiliencia de los ecosistemas. Los incendios forestales son también una causa
+                    importante de pérdida de cobertura vegetal y alteración del paisaje.</p>
+            </div>
+            <div class="subsection-content">
+                <h3>Calidad del Aire</h3>
+                <p>La calidad del aire es un problema ambiental de alta preocupación en la Región de Los Lagos,
+                    especialmente en sus principales centros urbanos durante los meses de invierno (mayo a agosto).
+                    Ciudades como Osorno y Puerto Montt experimentan frecuentes y severos episodios de alta
+                    contaminación atmosférica. La principal fuente de emisión es, abrumadoramente, la calefacción
+                    residencial a leña (particularmente leña húmeda), que libera grandes cantidades de material
+                    particulado fino (MP2.5), altamente nocivo para la salud. A esto se suman las emisiones del
+                    transporte vehicular y, en menor medida, de algunas industrias. Las condiciones de inversión térmica
+                    invernal agravan la acumulación de estos contaminantes en la cuenca.</p>
+            </div>
+        </div>
+
+        <div class="section-box">
+            <h2>Tips o Consejos para la Visita y Conservación</h2>
+            <div class="subsection-content">
+                <h3>Consejo 1: Observación a Distancia Extrema y en Silencio</h3>
+                <p>El Zorro Chilote es una de las especies de cánidos más raras y esquivas del mundo. Si tienes la
+                    inmensa fortuna de avistar uno, mantén siempre una distancia muy grande (nunca te acerques) y en
+                    silencio. Evita cualquier ruido o movimiento brusco que pueda estresarlo o ahuyentarlo. La
+                    perturbación mínima es crucial para su supervivencia.
+                </p>
+            </div>
+            <div class="subsection-content">
+                <h3>Consejo 2: Control Absoluto de Mascotas (¡Especialmente Perros!)</h3>
+                <p>Los perros domésticos y asilvestrados son la principal amenaza para el Zorro Chilote. Pueden
+                    transmitir enfermedades (como el distemper o la sarna), competir por alimento o incluso cazar a los
+                    zorros. Si visitas áreas donde habita el Zorro Chilote (como Chiloé o Nahuelbuta), tus perros deben
+                    ir SIEMPRE con correa y bajo tu control total. Lo ideal es no llevar mascotas a parques nacionales o
+                    zonas de alta sensibilidad ambiental.</p>
+            </div>
+            <div class="subsection-content">
+                <h3>Consejo 3: No Dejes Rastro: Gestión de Residuos </h3>
+                <p>La basura, especialmente restos de comida, atrae a animales domésticos y asilvestrados a los hábitats
+                    del zorro, aumentando el riesgo de interacciones negativas y transmisión de enfermedades. Lleva
+                    contigo toda la basura que generes y deposítala en los lugares adecuados.</p>
+            </div>
+        </div>
+
+        <div class="back-link">
+            <a href="index.html">Volver al Mapa de Regiones</a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Región de Valparaíso</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            /* Mantén este padding para que el contenido no toque los bordes de la ventana */
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1100px;
+            /* ¡CAMBIO AQUÍ! Aumentado de 900px a 1100px para más espacio horizontal */
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #0056b3;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section-box {
+            background-color: #ffe0b3;
+            border: 1px solid #ffcc80;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+
+        .section-box h2 {
+            color: #e65100;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .subsection-content {
+            background-color: #fff3e0;
+            border-left: 3px solid #ffab40;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .subsection-content h3 {
+            color: #ff8f00;
+            margin-top: 0;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        .animal-photos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .animal-photos img {
+            max-width: 320px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .animal-photos img:hover {
+            transform: scale(1.03);
+        }
+
+        .back-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .back-link a {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .back-link a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Región Valparaíso</h1>
+
+        <div class="section-box">
+            <h2>Fot del Animal de la Región</h2>
+            <div class="animal-photos">
+                <img src="img animal/yaca.png" alt="Animal de Arica 1">
+                <img src="img animal/yaca.png" alt="Animal de Arica 2">
+                <img src="img animal/yaca.png" alt="Animal de Arica 3">
+            </div>
+        </div>
+
+        <div class="section-box">
+            <h2>Información: La Yaca</h2>
+            <p>La Yaca (Thylamys elegans) es un pequeño marsupial didélfido (pariente de las zarigüeyas) endémico de
+                Chile, conocido por su agilidad y su papel en el ecosistema de matorral y bosque esclerófilo.</p>
+
+            <div class="subsection-content">
+                <h3>Hábitos</h3>
+                <p> La Yaca es un animal de hábitos principalmente nocturnos y crepusculares. Es omn ívora, su dieta es
+                    muy variada y oportunista, incluyendo insectos, arácnidos, pequeños invertebrados, frutas, semillas,
+                    brotes tiernos e incluso pequeños vertebrados. Es un animal solitario y arbóreo, que utiliza su cola
+                    prensil para trepar árboles y arbustos en busca de alimento y refugio. Durante el día, se esconde en
+                    huecos de árboles, nidos abandonados o madrigueras.</p>
+            </div>
+
+            <div class="subsection-content">
+                <h3>Hábitat</h3>
+                <p>Habita en diversas zonas de Chile, desde la Región de Coquimbo hasta la Región de Los Lagos,
+                    incluyendo el Valle Central y la Cordillera de la Costa. Prefiere ambientes con vegetación densa,
+                    como el matorral, bosque esclerófilo, plantaciones forestales y, ocasionalmente, zonas agrícolas y
+                    semiurbanas. Se adapta bien a climas mediterráneos y templados.</p>
+            </div>
+
+            <div class="subsection-content">
+                <h3>Cualidades</h3>
+                <p> La Yaca es un marsupial de tamaño pequeño, con un cuerpo esbelto, un hocico puntiagudo y ojos
+                    grandes y oscuros, adaptados a su visión nocturna. Su cola es larga, desnuda y prensil, lo que le
+                    permite sujetarse a las ramas mientras se mueve. Aunque no tiene una bolsa marsupial permanente, las
+                    hembras poseen un pliegue cutáneo donde las crías se adhieren. Juega un rol ecológico importante en
+                    la dispersión de semillas y el control de poblaciones de insectos. Es una especie que puede ser
+                    confundida con roedores, pero se distingue por sus características marsupiales.</p>
+            </div>
+        </div>
+
+        <div class="section-box">
+            <h2>Estadísticas Valparaíso</h2>
+            <div class="subsection-content">
+                <h3>% de Desertificación</h3>
+                <p>La Región de Valparaíso, ubicada en la zona central de Chile, se ve afectada por un clima
+                    mediterráneo con una tendencia a la aridez creciente, lo que incrementa su vulnerabilidad a la
+                    desertificación y la sequía. Factores como el cambio climático, la prolongada sequía y la
+                    intervención humana (uso intensivo del suelo, sobreexplotación hídrica) contribuyen a este problema.
+                    Se estima que aproximadamente el XX% de su territorio presenta algún grado de desertificación,
+                    afectando especialmente las áreas de secano interior y las laderas de los cerros.</p>
+            </div>
+            <div class="subsection-content">
+                <h3>% de Deforestación</h3>
+                <p>Históricamente, la Región de Valparaíso ha sufrido una significativa pérdida de su vegetación nativa,
+                    especialmente el bosque y matorral esclerófilo, debido a la expansión agrícola, urbana, incendios
+                    forestales y el reemplazo por especies exóticas. Aunque no se compara con la deforestación de
+                    bosques lluviosos del sur, la degradación y fragmentación de los ecosistemas nativos es un problema
+                    grave, con un impacto directo en la biodiversidad y la disponibilidad de agua.</p>
+            </div>
+            <div class="subsection-content">
+                <h3>Calidad del Aire</h3>
+                <p> La calidad del aire en la Región de Valparaíso es variable. Mientras que en las zonas rurales y
+                    costeras alejadas de grandes urbes puede ser buena, las principales aglomeraciones urbanas como
+                    Valparaíso, Viña del Mar y sus alrededores, así como las zonas industriales y portuarias (ej.
+                    Ventanas, Quintero, Puchuncaví, San Antonio), presentan desafíos. Las principales fuentes de emisión
+                    incluyen el tráfico vehicular, las calefacciones residenciales en invierno y, significativamente,
+                    las emisiones de fuentes fijas industriales y portuarias, lo que puede generar episodios de
+                    contaminación atmosférica.</p>
+            </div>
+        </div>
+
+        <div class="section-box">
+            <h2>Tips o Consejos para la Visita y Conservación</h2>
+            <div class="subsection-content">
+                <h3>Consejo 1: Previene Incendios Forestales</h3>
+                <p>El hábitat de la Yaca (matorral y bosque esclerófilo) es altamente vulnerable a los incendios. Sé
+                    extremadamente cuidadoso con el fuego en zonas rurales y naturales, no arrojes colillas de cigarro y
+                    respeta las prohibiciones de hacer fogatas. Los incendios destruyen su hogar y sus fuentes de
+                    alimento.</p>
+            </div>
+            <div class="subsection-content">
+                <h3>Consejo 2: ¡Cuidado con el Uso de Pesticidas y Venenos!</h3>
+                <p>Como la Yaca se alimenta de insectos y pequeños invertebrados, es muy susceptible a los pesticidas y
+                    raticidas utilizados en jardines, predios agrícolas o parcelas. Opta por métodos de control de
+                    plagas naturales y seguros para la fauna silvestre, o al menos utiliza productos con precaución
+                    extrema.</p>
+            </div>
+            <div class="subsection-content">
+                <h3>Consejo 3: Conduce con Precaución en Zonas Rurales y Suburbanas</h3>
+                <p>Las Yacas, al ser animales pequeños y nocturnos, son vulnerables a ser atropelladas en carreteras y
+                    caminos rurales, especialmente durante la noche o el amanecer. Reduce la velocidad en estas zonas y
+                    mantente alerta a la posible presencia de fauna en la vía.</p>
+            </div>
+        </div>
+
+        <div class="back-link">
+            <a href="index.html">Volver al Mapa de Regiones</a>
+        </div>
+    </div>
+</body>
+
+</html>

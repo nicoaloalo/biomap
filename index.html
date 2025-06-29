@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BioMap</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: whitesmoke;
+      /*Fondo*/
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* Centra el contenido horizontalmente */
+      min-height: 100vh;
+      /* Asegura que el body ocupe al menos toda la altura de la ventana */
+      margin: 0;
+    }
+
+
+    .header-box h2 {
+      margin-top: 0;
+      font-size: 2em;
+    }
+
+    .header-box p {
+      font-size: 1.1em;
+      line-height: 1.5;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .mapa-vertical-regiones {
+      display: flex;
+      flex-direction: column;
+      /* Apila los "items" de región verticalmente */
+      align-items: flex-start;
+      /* Alinea los items a la izquierda para que el texto no se vea "flotando" */
+      gap: 10px;
+      /* Espacio entre cada item de región (imagen + nombre) */
+      padding: 50px;
+      /*Agrande el cuadro de las regiones*/
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .region-item {
+      /* Nuevo estilo para cada contenedor de imagen y nombre */
+      display: flex;
+      /* Permite que la imagen y el texto estén lado a lado */
+      align-items: center;
+      /* Alinea verticalmente la imagen y el texto */
+      gap: 10px;
+      /* Espacio entre la imagen y el nombre */
+      text-decoration: none;
+      /* Quita el subrayado del enlace */
+      color: #333;
+      /* Color del texto del nombre */
+      padding: 5px 10px;
+      /* Pequeño padding alrededor del item */
+      border-radius: 5px;
+      transition: background-color 0.2s, transform 0.2s;
+    }
+
+    .region-item:hover {
+      background-color: #e9ecef;
+      /* Ligero cambio de fondo al pasar el ratón */
+      transform: translateX(10px);
+      /* Desliza ligeramente a la derecha al pasar el ratón */
+    }
+
+    .region-item img {
+      width: 120px;
+      /* Ancho de la imagen de la región (ajustado para que quepa bien con texto) */
+      height: auto;
+      /* Mantiene la proporción de la imagen */
+      display: block;
+      /*  border: 1px solid #ddd;
+      /* Un borde sutil para la imagen */
+      /*border-radius: 3px;*/
+    }
+
+    .region-item span {
+      /* Estilo para el nombre de la región */
+      font-weight: bold;
+      font-size: 1.5em;
+      white-space: nowrap;
+      /* Evita que el nombre se rompa en varias líneas */
+    }
+  </style>
+</head>
+
+<body>
+  <h1>BIOMAP</h1>
+  <h2>Explora las Regiones de Chile y sus especies en peligro de extinción</h2>
+
+  <div class="mapa-vertical-regiones">
+    <a href="Arica y Parinacota.html" class="region-item">
+      <img src="1.png" alt="Arica y Parinacota">
+      <span>Arica y Parinacota</span>
+    </a>
+    <a href="Tarapaca.html" class="region-item">
+      <img src="img/2.png" alt="Tarapacá">
+      <span>Tarapacá</span>
+    </a>
+    <a href="Antofagasta.html" class="region-item">
+      <img src="img/3.png" alt="Antofagasta">
+      <span>Antofagasta</span>
+    </a>
+    <a href="Atacama.html" class="region-item">
+      <img src="img/4.png" alt="Atacama">
+      <span>Atacama</span>
+    </a>
+    <a href="Coquimbo.html" class="region-item">
+      <img src="img/5.png" alt="Coquimbo">
+      <span>Coquimbo</span>
+    </a>
+    <a href="Valparaíso.html" class="region-item">
+      <img src="img/6.png" alt="Valparaíso">
+      <span>Valparaíso</span>
+    </a>
+    <a href="Metropolitana de Santiago.html" class="region-item">
+      <img src="img/7.png" alt="Metropolitana">
+      <span>Metropolitana</span>
+    </a>
+    <a href="O'Higgins.html" class="region-item">
+      <img src="img/8.png" alt="Libertador B. O'Higgins">
+      <span>O'Higgins</span>
+    </a>
+    <a href="Maule.html" class="region-item">
+      <img src="img/9.png" alt="Maule">
+      <span>Maule</span>
+    </a>
+    <a href="Ñuble.html" class="region-item">
+      <img src="img/10.png" alt="Ñuble">
+      <span>Ñuble</span>
+    </a>
+    <a href="Biobío.html" class="region-item">
+      <img src="img/11.png" alt="Biobío">
+      <span>Biobío</span>
+    </a>
+    <a href="Araucanía.html" class="region-item">
+      <img src="img/12.png" alt="La Araucanía">
+      <span>La Araucanía</span>
+    </a>
+    <a href="Los Ríos.html" class="region-item">
+      <img src="img/13.png" alt="Los Ríos">
+      <span>Los Ríos</span>
+    </a>
+    <a href="Los Lagos.html" class="region-item">
+      <img src="img/14.png" alt="Los Lagos">
+      <span>Los Lagos</span>
+    </a>
+    <a href="Aysén.html" class="region-item">
+      <img src="img/15.png" alt="Aysén">
+      <span>Aysén</span>
+    </a>
+    <a href="Magallanes y la Antártica Chilena.html" class="region-item">
+      <img src="img/16.png" alt="Magallanes y Antártica Chilena">
+      <span>Magallanes y Antártica Chilena</span>
+    </a>
+  </div>
+</body>
+
+</html>

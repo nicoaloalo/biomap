@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Región de Atacama</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            /* Mantén este padding para que el contenido no toque los bordes de la ventana */
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1100px;
+            /* ¡CAMBIO AQUÍ! Aumentado de 900px a 1100px para más espacio horizontal */
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #0056b3;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section-box {
+            background-color: #ffe0b3;
+            border: 1px solid #ffcc80;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+
+        .section-box h2 {
+            color: #e65100;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .subsection-content {
+            background-color: #fff3e0;
+            border-left: 3px solid #ffab40;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .subsection-content h3 {
+            color: #ff8f00;
+            margin-top: 0;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        .animal-photos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .animal-photos img {
+            max-width: 320px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .animal-photos img:hover {
+            transform: scale(1.03);
+        }
+
+        .back-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .back-link a {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .back-link a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Región Atacama</h1>
+
+        <div class="section-box">
+            <h2>Foto del Animal de la Región</h2>
+            <div class="animal-photos">
+                <img src="img animal/guanaco.png" alt="Animal de Arica 1">
+                <img src="img animal/guanaco.png" alt="Animal de Arica 2">
+                <img src="img animal/guanaco.png" alt="Animal de Arica 3">
+            </div>
+        </div>
+
+        <div class="section-box">
+            <h2>Información: El Guanaco</h2>
+            <p>El Guanaco (Lama guanicoe) es un camélido sudamericano nativo, emblemático de las estepas, montañas y
+                desiertos de Sudamérica, conocido por su adaptabilidad y resistencia.</p>
+
+            <div class="subsection-content">
+                <h3>Hábitos</h3>
+                <p>El Guanaco es un animal herbívoro, principalmente diurno, aunque puede ser activo en las primeras
+                    horas de la noche. Se alimenta de una gran variedad de vegetación, incluyendo pastos, arbustos,
+                    hierbas y líquenes. Son animales muy sociables que viven en grupos familiares liderados por un macho
+                    dominante, o en grupos de machos solteros. Poseen una excelente vista y oído para detectar
+                    depredadores.</p>
+            </div>
+
+            <div class="subsection-content">
+                <h3>Hábitat</h3>
+                <p>Habita en una amplia gama de ecosistemas, desde las zonas semidesérticas costeras y el altiplano
+                    andino (hasta los 4.000 metros sobre el nivel del mar) hasta las estepas patagónicas. Se adapta a
+                    climas diversos, desde ambientes áridos y fríos hasta zonas más templadas. En Chile, su distribución
+                    abarca gran parte del país, desde el altiplano nortino hasta Tierra del Fuego.</p>
+            </div>
+
+            <div class="subsection-content">
+                <h3>Cualidades</h3>
+                <p>Es un animal de gran tamaño y robustez, adaptado a sobrevivir en condiciones extremas y con escasa
+                    disponibilidad de alimento y agua. Su pelaje denso y lanudo (lana de guanaco) le proporciona un
+                    excelente aislamiento térmico. Son corredores rápidos y ágiles, lo que les permite escapar de
+                    depredadores como el puma. Juegan un rol ecológico vital como herbívoros que modelan el paisaje y
+                    dispersan semillas.</p>
+            </div>
+        </div>
+
+        <div class="section-box">
+            <h2>Estadísticas Atacama</h2>
+            <div class="subsection-content">
+                <h3>% de Desertificación</h3>
+                <p> La Región de Atacama se encuentra en una zona de transición entre el desierto más árido del mundo y
+                    áreas semiáridas, lo que la hace altamente vulnerable a la desertificación. Factores climáticos
+                    extremos y actividades humanas intensifican este proceso. Se estima que aproximadamente el XX% de su
+                    territorio presenta algún grado de desertificación, afectando tanto zonas costeras como interiores.
+                </p>
+            </div>
+            <div class="subsection-content">
+                <h3>% de Deforestación</h3>
+                <p>Dada la naturaleza desértica y las escasas formaciones boscosas nativas de Atacama, la deforestación
+                    a gran escala no es una preocupación principal como en otras regiones. Sin embargo, la degradación y
+                    pérdida de especies vegetales adaptadas a la aridez, como cactáceas y arbustos, debido a la minería,
+                    la urbanización y la agricultura en valles, sí representa un problema localizado para ecosistemas
+                    únicos y frágiles.</p>
+            </div>
+            <div class="subsection-content">
+                <h3>Calidad del Aire</h3>
+                <p>La calidad del aire en la Región de Atacama puede variar. Si bien las zonas rurales y vastas
+                    extensiones desérticas suelen tener una buena calidad del aire, los centros urbanos como Copiapó y
+                    las áreas con alta concentración de actividad minera (especialmente la extracción y procesamiento de
+                    minerales) pueden experimentar episodios de contaminación. Las principales fuentes incluyen
+                    emisiones vehiculares y, sobre todo, emisiones de procesos industriales y de combustión asociados a
+                    la minería.
+                </p>
+            </div>
+        </div>
+
+        <div class="section-box">
+            <h2>Tips o Consejos para la Visita y Conservación</h2>
+            <div class="subsection-content">
+                <h3>Consejo 1: Observa a Distancia y con Respeto</h3>
+                <p>Los guanacos son animales curiosos pero silvestres. Manten una distancia prudente para no
+                    estresarlos, especialmente si están con crías. Evita ruidos fuertes o movimientos bruscos.
+                    Observarlos desde lejos con binoculares es la mejor manera de disfrutar su comportamiento natural
+                    sin interferir.</p>
+            </div>
+            <div class="subsection-content">
+                <h3>Consejo 2: Respeta las Áreas Protegidas y No Dejes Rastro</h3>
+                <p>Los guanacos habitan en vastas extensiones, incluyendo muchos parques nacionales y reservas. Sigue
+                    siempre las indicaciones de los guardaparques, transita solo por los senderos autorizados y lleva
+                    contigo toda la basura que generes. Minimizar tu impacto ayuda a preservar su hábitat y sus fuentes
+                    de alimento.</p>
+            </div>
+            <div class="subsection-content">
+                <h3>Consejo 3: ¡Nunca Alimentes a los Guanacos ni a Otros Animales Silvestres!</h3>
+                <p>Ofrecer alimento a los guanacos (o a cualquier fauna silvestre) puede causarles problemas digestivos,
+                    alterar sus patrones de búsqueda de comida y hacerlos dependientes de los humanos. También puede
+                    atraerlos a zonas peligrosas como carreteras.</p>
+            </div>
+        </div>
+
+        <div class="back-link">
+            <a href="index.html">Volver al Mapa de Regiones</a>
+        </div>
+    </div>
+</body>
+
+</html>

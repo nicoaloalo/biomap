@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Región de Coquimbo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            /* Mantén este padding para que el contenido no toque los bordes de la ventana */
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1100px;
+            /* ¡CAMBIO AQUÍ! Aumentado de 900px a 1100px para más espacio horizontal */
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #0056b3;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section-box {
+            background-color: #ffe0b3;
+            border: 1px solid #ffcc80;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+
+        .section-box h2 {
+            color: #e65100;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .subsection-content {
+            background-color: #fff3e0;
+            border-left: 3px solid #ffab40;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .subsection-content h3 {
+            color: #ff8f00;
+            margin-top: 0;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        .animal-photos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .animal-photos img {
+            max-width: 320px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .animal-photos img:hover {
+            transform: scale(1.03);
+        }
+
+        .back-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .back-link a {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .back-link a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Región Coquimbo</h1>
+
+        <div class="section-box">
+            <h2>Foto del Animal de la Región</h2>
+            <div class="animal-photos">
+                <img src="img animal/pinguino.png" alt="Animal de Arica 1">
+                <img src="img animal/pinguino.png" alt="Animal de Arica 2">
+                <img src="img animal/pinguino.png" alt="Animal de Arica 3">
+            </div>
+        </div>
+
+        <div class="section-box">
+            <h2>Información: El pingüino de Humboldt</h2>
+            <p>El Pingüino de Humboldt (Spheniscus humboldti) es una especie de pingüino de tamaño mediano, endémico de
+                la corriente de Humboldt en la costa oeste de Sudamérica, y un importante indicador de la salud de
+                nuestros océanos.</p>
+
+            <div class="subsection-content">
+                <h3>Hábitos</h3>
+                <p>El Pingüino de Humboldt es un excelente nadador y buceador, adaptado a la vida marina. Se alimenta
+                    principalmente de peces pequeños (como anchovetas y sardinas) y cefalópodos. Pasan la mayor parte
+                    del día cazando en el mar, pero regresan a tierra para descansar, mudar su plumaje y reproducirse.
+                    Son animales gregarios, que forman colonias de anidación en costas rocosas e islas.</p>
+            </div>
+
+            <div class="subsection-content">
+                <h3>Hábitat</h3>
+                <p>Habita a lo largo de las costas del Pacífico de Chile y Perú, fuertemente asociado a la corriente
+                    fría de Humboldt, que le proporciona abundancia de alimento. Sus colonias se establecen en islas e
+                    islotes rocosos, acantilados y costas con vegetación escasa, donde excavan cuevas o utilizan grietas
+                    para anidar. En Chile, se le encuentra desde Arica hasta la Región de Los Lagos, con importantes
+                    colonias en áreas protegidas.</p>
+            </div>
+
+            <div class="subsection-content">
+                <h3>Cualidades</h3>
+                <p>Posee un plumaje negro en el dorso y blanco en el vientre, con una distintiva franja negra en forma
+                    de herradura que bordea su pecho. Sus alas, adaptadas como aletas, le permiten impulsarse con gran
+                    agilidad bajo el agua. Son monógamos y suelen emparejarse de por vida. Su particular vocalización es
+                    similar a un rebuzno.</p>
+            </div>
+        </div>
+
+        <div class="section-box">
+            <h2>Estadísticas Coquimbo</h2>
+            <div class="subsection-content">
+                <h3>% de Desertificación</h3>
+                <p>La Región de Coquimbo se caracteriza por ser una zona de transición entre el desierto del norte y el
+                    clima mediterráneo, lo que la hace altamente vulnerable a la desertificación y la sequía. Factores
+                    como el cambio climático, la variabilidad de las precipitaciones y ciertas actividades humanas
+                    intensifican este proceso. Se estima que aproximadamente el XX% de su territorio presenta algún
+                    grado de desertificación, afectando principalmente las zonas de secano interior y los bordes
+                    desérticos.</p>
+            </div>
+            <div class="subsection-content">
+                <h3>% de Deforestación</h3>
+                <p>A diferencia de las regiones del sur, Coquimbo no posee grandes extensiones de bosques nativos
+                    densos. Sin embargo, la región ha enfrentado la degradación y pérdida de su vegetación esclerófila y
+                    de arbustos xerófitos, así como de los pocos relictos de bosques relictos en quebradas. Esto se debe
+                    a la expansión agrícola, el uso de suelo, los incendios forestales y la escasez hídrica, lo que
+                    afecta la biodiversidad y la capacidad de los ecosistemas para retener agua y suelo.</p>
+            </div>
+            <div class="subsection-content">
+                <h3>Calidad del Aire</h3>
+                <p>En general, la calidad del aire en las zonas rurales y los valles agrícolas de Coquimbo es buena. No
+                    obstante, en los principales centros urbanos como La Serena y Coquimbo, así como en áreas cercanas a
+                    puertos o actividades industriales (ej. minería), pueden registrarse episodios de mala calidad del
+                    aire. Las principales fuentes de emisión suelen ser el tráfico vehicular, las calefacciones
+                    residenciales en invierno y, en menor medida, algunas fuentes industriales. La presencia de material
+                    particulado es la preocupación más común.</p>
+            </div>
+        </div>
+
+        <div class="section-box">
+            <h2>Tips o Consejos para la Visita y Conservación</h2>
+            <div class="subsection-content">
+                <h3>Consejo 1: Observa Siempre a Distancia Prudente</h3>
+                <p>Los pingüinos de Humboldt son sensibles a la presencia humana. Si estás en una embarcación o en
+                    tierra, mantén una distancia mínima recomendada (generalmente 20-30 metros) para no estresarlos,
+                    interrumpir su descanso, alimentación o actividades de anidación. Usa binoculares o teleobjetivos
+                    para una mejor vista sin acercarte demasiado.</p>
+            </div>
+            <div class="subsection-content">
+                <h3>Consejo 2: No Dejes Basura en Playas, Islas o el Mar</h3>
+                <p>Los desechos marinos, especialmente plásticos, redes de pesca y otros materiales, son una amenaza
+                    letal para los pingüinos y otras especies. Pueden enredarse, ingerir los desechos o contaminar su
+                    fuente de alimento. Lleva siempre contigo toda la basura que generes y, si es posible, ayuda a
+                    limpiar la costa.</p>
+            </div>
+            <div class="subsection-content">
+                <h3>Consejo 3: Elige Operadores de Turismo Responsables</h3>
+                <p>Si realizas tours para avistar pingüinos, asegúrate de que la empresa opere bajo licencias, respete
+                    las regulaciones de conservación y cuente con guías que promuevan la observación responsable y el
+                    respeto por la fauna. Evita aquellas que prometan interacciones invasivas con los animales.</p>
+            </div>
+        </div>
+
+        <div class="back-link">
+            <a href="index.html">Volver al Mapa de Regiones</a>
+        </div>
+    </div>
+</body>
+
+</html>
